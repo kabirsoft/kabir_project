@@ -4,7 +4,6 @@ phases:
   install:
     commands:
       - echo Download and install required packages
-      - composer self-update
       - composer install
 
   pre_build:
