@@ -8,8 +8,8 @@ phases:
       - composer install
 
   pre_build:
-    #commands:      
-      #- echo Create required directories
+    commands:      
+      - echo install prebuild things here
       #- mkdir var
       #- chmod +x bin/console
  
