@@ -22,9 +22,3 @@ phases:
     commands:
       - echo All done!
 
-  artifacts:
-    type: zip
-    files:
-      - info.php
-      - test.php
-      - composer.json
